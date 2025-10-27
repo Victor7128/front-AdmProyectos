@@ -231,7 +231,7 @@
                 Sin imagen para analizar
             </h3>
             <p class="text-gray-500 text-sm">
-                Sube una imagen de Yape para que se analice automáticamente
+                Sube una imagen de Plin para que se analice automáticamente
             </p>
         </div>
     {/if}

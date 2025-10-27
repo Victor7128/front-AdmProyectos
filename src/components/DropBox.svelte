@@ -83,7 +83,7 @@
 
   {#if loading}
     <div class="loading-indicator">
-      <p>Verificando transacción Yape...</p>
+      <p>Verificando transacción Plin...</p>
     </div>
   {:else}
     <Dropzone
@@ -93,7 +93,7 @@
       class="my-dropzone text-black/75"
     >
       <div class="content-center p-6">
-        <p>Haz clic o arrastra para subir una imagen de transacción Yape</p>
+        <p>Haz clic o arrastra para subir una imagen de transacción Plin</p>
       </div>
     </Dropzone>
   {/if}
