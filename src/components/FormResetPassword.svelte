@@ -206,7 +206,7 @@
           <button
             type="submit"
             disabled={loading}
-            class="group relative w-full flex justify-center py-2 px-4 border text-sm font-medium rounded-md text-black bg-white/75 hover:bg-black hover:text-white/75 hover:border-white/75 transition-all ease-in duration-200 cursor-pointer"
+            class="group relative w-full flex justify-center py-2 px-4 border text-sm font-medium rounded-md text-black bg-white/75 hover:bg-transparent hover:text-white/75 hover:border-white/75 transition-all ease-in duration-200 cursor-pointer"
           >
             {loading ? "Enviando..." : "Verificar correo"}
           </button>
@@ -218,7 +218,7 @@
           <button
             type="button"
             on:click={() => (step = "request")}
-            class="group relative w-full flex justify-center py-2 px-4 border text-black bg-white/75 hover:bg-black hover:text-white/75 hover:border-white/75 transition-all ease-in duration-200 cursor-pointer rounded-md"
+            class="group relative w-full flex justify-center py-2 px-4 border text-black bg-white/75 hover:bg-transparent hover:text-white/75 hover:border-white/75 transition-all ease-in duration-200 cursor-pointer rounded-md"
           >
             Volver
           </button>
@@ -272,7 +272,7 @@
           <button
             type="submit"
             disabled={loading}
-            class="group relative w-full flex justify-center py-2 px-4 border text-sm font-medium rounded-md text-black bg-white/75 hover:bg-black hover:text-white/75 hover:border-white/75 transition-all ease-in duration-200 cursor-pointer"
+            class="group relative w-full flex justify-center py-2 px-4 border text-sm font-medium rounded-md text-black bg-white/75 hover:bg-transparent hover:text-white/75 hover:border-white/75 transition-all ease-in duration-200 cursor-pointer"
           >
             {loading ? "Procesando..." : "Restablecer contraseña"}
           </button>

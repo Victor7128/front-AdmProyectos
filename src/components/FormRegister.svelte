@@ -170,7 +170,7 @@
     <button
       type="submit"
       disabled={loading}
-      class="w-full bg-white/75 text-black p-3 rounded-md border hover:bg-black hover:text-white/75 transition-all ease-in duration-200 cursor-pointer"
+      class="w-full bg-white/75 text-black p-3 rounded-md border hover:bg-transparent hover:text-white/75 transition-all ease-in duration-200 cursor-pointer"
     >
       {#if loading}<span>Registrando...</span>{:else}<span>Crear cuenta</span
         >{/if}
@@ -178,7 +178,9 @@
 
     <div class="text-center mt-4">
       <span class="text-white/75">¿Ya tienes cuenta?</span>
-      <a href="/" class="ml-1 text-white/75 hover:text-white underline transition-all ease-in duration-200"
+      <a
+        href="/"
+        class="ml-1 text-white/75 hover:text-white underline transition-all ease-in duration-200"
         >Inicia sesión</a
       >
     </div>

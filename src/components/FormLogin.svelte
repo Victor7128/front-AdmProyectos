@@ -75,7 +75,9 @@
 </script>
 
 <div class=" p-8 rounded-2xl shadow-lg w-96 max-w-full border border-white/75">
-  <h1 class="text-2xl font-bold mb-6 text-center text-white/75">Iniciar Sesión</h1>
+  <h1 class="text-2xl font-bold mb-6 text-center text-white/75">
+    Iniciar Sesión
+  </h1>
 
   {#if checkingAuth}
     <div class="text-center py-4 text-white/75">
@@ -125,7 +127,7 @@
       <button
         type="submit"
         disabled={loading}
-        class="w-full bg-white/75 text-black border p-3 rounded-md hover:bg-black hover:text-white/75 hover:border-white/75  transition-all ease-in duration-200 cursor-pointer"
+        class="w-full bg-white/75 text-black border p-3 rounded-md hover:bg-transparent hover:text-white/75 hover:border-white/75 transition-all ease-in duration-200 cursor-pointer"
       >
         {#if loading}
           <span>Cargando...</span>
