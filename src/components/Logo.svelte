@@ -36,7 +36,7 @@
             formData.append("file", blob, "logo_image.jpg");
             const controller = new AbortController();
 
-            const apiResponse = await fetch(`${API_BASE_URL}/logo`, {
+            const apiResponse = await fetch(`${API_BASE_URL}/filtro_logo`, {
                 method: "POST",
                 body: formData,
                 signal: controller.signal,

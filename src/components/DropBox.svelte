@@ -28,7 +28,7 @@
       const formData = new FormData();
       formData.append("file", file);
 
-      const response = await fetch(`${API_BASE_URL}/filter_yape`, {
+      const response = await fetch(`${API_BASE_URL}/filter_plin`, {
         method: "POST",
         body: formData,
       });
@@ -47,7 +47,9 @@
       sessionStorage.setItem("uploadedImage", await imageDataPromise);
       window.location.href = "/resultados";
     } catch (error) {
-      handleError("Error al procesar la imagen. Por favor, inténtalo de nuevo.");
+      handleError(
+        "Error al procesar la imagen. Por favor, inténtalo de nuevo.",
+      );
     } finally {
       loading = false;
     }
@@ -71,7 +73,7 @@
       files = null;
     } else {
       setTimeout(() => verifyYapeTransaction(file), 100);
-      setTimeout(() => files = null, 1000);
+      setTimeout(() => (files = null), 1000);
     }
   }
 </script>
