@@ -2,6 +2,7 @@
 import Layout from "../layouts/Layout.astro";
 import Header from "../components/Header.svelte";
 import DropBox from "../components/DropBox.svelte";
+import ChatbotFAQ from "../components/ChatbotFAQ.svelte";
 ---
 
 <Layout>
@@ -30,4 +31,5 @@ import DropBox from "../components/DropBox.svelte";
       <DropBox client:idle />
     </div>
   </main>
+  <ChatbotFAQ client:load />
 </Layout>
